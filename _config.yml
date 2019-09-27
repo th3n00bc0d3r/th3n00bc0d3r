@@ -1,0 +1,42 @@
+title: Stackbit Fresh Theme
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+layout_style: overflow
+palette: blue
+header:
+  title: Muhammad
+  tagline: "By helping others, you learn how to help yourself. \r\n\r\nWhen the Noob is at work, remember it's not a Noob at work."
+  profile_img: >-
+    https://res.cloudinary.com/practicaldev/image/fetch/s--wFCPHy1_--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/202699/5f1ef8f4-920a-4d73-aa19-ba5c7d1d3549.jpg
+  bg: dark
+  has_nav: true
+  has_social: true
+footer:
+  content: '&copy; All rights reserved.'
+  links:
+    - text: Made with Stackbit
+      url: 'https://www.stackbit.com'
+      new_window: true
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - ssg-build.sh
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
