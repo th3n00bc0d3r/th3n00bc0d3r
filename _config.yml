@@ -1,4 +1,4 @@
-title: Stackbit Fresh Theme
+title: The Noob Guides by th3n00bc0d3r
 baseurl: /
 permalink: '/:title/'
 collections:
@@ -7,7 +7,7 @@ collections:
 layout_style: overflow
 palette: blue
 header:
-  title: Muhammad
+  title: Muhammad Bilal
   tagline: "By helping others, you learn how to help yourself. \r\n\r\nWhen the Noob is at work, remember it's not a Noob at work."
   profile_img: >-
     https://res.cloudinary.com/practicaldev/image/fetch/s--wFCPHy1_--/c_fill,f_auto,fl_progressive,h_320,q_auto,w_320/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/202699/5f1ef8f4-920a-4d73-aa19-ba5c7d1d3549.jpg
@@ -24,8 +24,10 @@ sass:
   indentWidth: 4
   style: nested
   precision: 10
+url: "https://thenoobcoder.site"
 plugins:
   - jekyll-menus
+  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
